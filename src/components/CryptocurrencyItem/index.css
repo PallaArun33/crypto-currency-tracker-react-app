@@ -1,0 +1,29 @@
+/* Write your CSS code here */
+.coin-item-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  width: 100%;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: black;
+}
+.currency-log-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.currency-logo {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+.currency-name,
+.usd-para,
+.euros-para {
+  font-size: 12px;
+  font-weight: bold;
+}
